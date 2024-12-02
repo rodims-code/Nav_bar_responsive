@@ -68,6 +68,8 @@ header{
     width: 35px;
 }
 
+
+
 @media screen  and (max-width:900px) {
     .nav_bar{
         padding: 0;
@@ -94,6 +96,11 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: -100%;
+    }
+
+    .nav_link.mobile-menu{
+        margin-left: 0;
     }
 
     .nav_link ul{
