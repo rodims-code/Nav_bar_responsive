@@ -7,15 +7,17 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
+    background-image: url(/img/landscape.jpg);
+    background-size: cover;
 }
 
 header{
     height: 100vh;
     /* C'est tout la languer de mon encrant a  l'heure actuel */
     width: 100vw;
-    background-image: url(/img/landscape.jpg);
+    background-image: url();
     /* Pourque ca couvre l'integraliter de l'ecrant */
-    background-size: cover;
+    
 }
 
 .nav_bar{
@@ -50,4 +52,10 @@ header{
 .nav_bar .nav_link .home_nav{
     color: brown;
     font-weight: bold;
+}
+
+@media screen  and (max-width:900px) {
+    .nav_link{
+        display: none;
+    }
 }
