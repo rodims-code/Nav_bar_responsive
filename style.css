@@ -9,6 +9,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-image: url(/img/landscape.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 header{
@@ -44,9 +45,14 @@ header{
 
     margin: 0 20px;
 }
+
 .nav_bar .nav_link li{
     margin: 0 20px;
-
+    transition: .3s;
+}
+.nav_bar .nav_link li:hover{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .nav_bar .nav_link .home_nav{
